@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media (max-width:1269px){
+@media (max-width:1269px) {
 .container{width:768px}
 p{font-size:1.4rem;line-height:1.4}
 .top__menu{display:none}
@@ -32,19 +32,8 @@ p{font-size:1.4rem;line-height:1.4}
 .newsPage__bottomConst{padding-right:0}
 .mainForm__right{padding:30px}
 .toperItem__right{padding-left:30px}
-.mob-search{}
-.mob-search__top{}
-.mob-search__top>button{}
-.mob-search__top>button>svg{}
-.mob-search__top>form{}
-.mob-search__top>form>input{}
-.mob-search__top>form>button{}
-.mob-search__bot{}
-.mob-search__bot>a{}
-.mob-search__bot>a>svg{}
-.mob-search__bot>a>span{}
 }
-@media (max-width:767px){
+@media (max-width:767px) {
 .container{width:100%;max-width:480px;padding:0}
 p{font-size:1.2rem}
 html body .checkbox__text{padding-left:10px;font-size:1.4rem}
@@ -76,7 +65,7 @@ html body .checkbox__text{padding-left:10px;font-size:1.4rem}
 #body.mainMenuActived{overflow:hidden}
 .mainMenuActived .mainMenu{height:100%;overflow:hidden;overflow-y:auto}
 .mainMenu__row{display:none}
-.mainMenu__mob{display: flex;flex-direction: column;}
+.mainMenu__mob{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
 .footer{margin-top:40px;padding-bottom:80px}
 .footer__menu{display:-ms-grid;display:grid;-ms-grid-columns:1fr 20px 1fr;grid-template-columns:1fr 1fr;gap:20px;padding:20px}
 .footer__menuNav{max-width:none}
@@ -219,26 +208,8 @@ html body .checkbox__text{padding-left:10px;font-size:1.4rem}
 .block404__title{font-size:3rem}
 .block404__subtitle{font-size:2.4rem;margin-top:20px}
 .block404__text{font-size:1.6rem}
-.mob-search{}
-.mob-search__top{}
-.mob-search__top>button{}
-.mob-search__top>button>svg{}
-.mob-search__top>form{}
-.mob-search__top>form>input{}
-.mob-search__top>form>button{}
-.mob-search__bot{}
-.mob-search__bot>a{}
-.mob-search__bot>a>svg{}
-.mob-search__bot>a>span{}
-.searchActived .mob-search{display: block;}
-.searchActived .header__toggle {
-	display: none;
-}
-.mainMenu__cats{
-    flex-direction: column;
-    gap: 10px;
-}
-.top__search {
-	display: none;
-}
+.searchActived .mob-search{display:block}
+.searchActived .header__toggle{display:none}
+.mainMenu__cats{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:10px}
+.top__search{display:none}
 }
