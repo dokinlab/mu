@@ -4,12 +4,28 @@ jQuery('.jsToggle').on('click',function(){
   jQuery(this).toggleClass('active');
 });
 
+jQuery(document).keyup(function(e) {
+    if (e.key === "Escape") {
+        jQuery('.jsToggle').removeClass('active');
+        jQuery('#body').removeClass('mainMenuActived');
+        jQuery('#body').removeClass('searchActived');
+    }
+});
+
 jQuery('.jsOpenMainMenu').on('click',function(){
   jQuery('body').addClass('mainMenuActived');
 });
 
 jQuery('.jsCloseMainMenu').on('click',function(){
   jQuery('body').removeClass('mainMenuActived');
+});
+
+jQuery('.jsOpenSearch').on('click',function(){
+  jQuery('body').addClass('searchActived');
+});
+
+jQuery('.jsCloseSearch').on('click',function(){
+  jQuery('body').removeClass('searchActived');
 });
 
 jQuery('.jsVideoPlay').on('click',function(){

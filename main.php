@@ -88,12 +88,9 @@
 							</a>
 						</div>
 					</div>
-					<a href="#" class="content__sideThing">
+					<a href="#" class="content__sideThing active">
 						<span><b>Мой юрист</b> &ndash; первый юридический информационный портал</span>
-						<img src="assets/medias/men.png" alt="">
-						<svg width="16" height="16">
-							<use xlink:href="#chat"></use>
-						</svg>
+						<img src="assets/medias/person.svg" alt="">
 					</a>
 				</div>
 			</aside>

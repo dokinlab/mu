@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+<base href="https://moiurist.online/a/">
 <meta charset="utf-8">
 <title>moiurist.online</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -111,11 +112,95 @@
 					</div>
 				</div>
 				<div class="top__right">
-					<button type="button" class="top__button">
+					<button type="button" class="top__button jsToggle">
 						<svg width="20" height="20">
 							<use xlink:href="#search"></use>
 						</svg>
 					</button>
+					<div class="top__search">
+						<div class="top__search-form">
+							<input type="text" placeholder="Поиск&hellip;">
+							<button type="submit">
+								<svg width="20" height="20">
+									<use xlink:href="#search"></use>
+								</svg>
+							</button>
+						</div>
+						<div class="top__search-row">
+							<div class="top__search-left">
+								<a href="#">
+									<svg width="16" height="16">
+										<use xlink:href="#search"></use>
+									</svg>
+									<span>Договор купли-продажи авто</span>
+								</a>
+								<a href="#">
+									<svg width="16" height="16">
+										<use xlink:href="#search"></use>
+									</svg>
+									<span>Договор купли-продажи авто</span>
+								</a>
+								<a href="#">
+									<svg width="16" height="16">
+										<use xlink:href="#search"></use>
+									</svg>
+									<span>Договор купли-продажи авто</span>
+								</a>
+							</div>
+							<div class="top__search-right">
+								<label class="checkbox">
+									<input type="checkbox" class="checkbox__input">
+									<span class="checkbox__icon">
+										<svg width="10" height="8">
+											<use xlink:href="#checkbox"></use>
+										</svg>
+									</span>
+									<span class="checkbox__text">
+										<span>Новости</span>
+									</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" class="checkbox__input">
+									<span class="checkbox__icon">
+										<svg width="10" height="8">
+											<use xlink:href="#checkbox"></use>
+										</svg>
+									</span>
+									<span class="checkbox__text">
+										<span>Статьи</span>
+									</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" class="checkbox__input">
+									<span class="checkbox__icon">
+										<svg width="10" height="8">
+											<use xlink:href="#checkbox"></use>
+										</svg>
+									</span>
+									<span class="checkbox__text">
+										<span>Кейсы</span>
+									</span>
+								</label>
+								<label class="checkbox">
+									<input type="checkbox" class="checkbox__input">
+									<span class="checkbox__icon">
+										<svg width="10" height="8">
+											<use xlink:href="#checkbox"></use>
+										</svg>
+									</span>
+									<span class="checkbox__text">
+										<span>Документы</span>
+									</span>
+								</label>
+							</div>
+						</div>
+						<a href="#" class="top__search-all">
+							<svg width="16" height="21" class="rotate180">
+								<use xlink:href="#top"></use>
+							</svg>
+							Перейти в результаты
+						</a>
+					</div>
 					<button type="button" class="top__button">
 						<svg width="15" height="20">
 							<use xlink:href="#bookmark"></use>
@@ -316,7 +401,7 @@
 							</div>
 							<div class="mainMenu__mob">
 								<div class="top__right mainMenu__mobTop">
-									<button type="button" class="top__button">
+									<button type="button" class="top__button jsOpenSearch">
 										<svg width="20" height="20">
 											<use xlink:href="#search"></use>
 										</svg>
@@ -336,6 +421,43 @@
 											<use xlink:href="#person"></use>
 										</svg>
 									</button>
+								</div>
+								<div class="mob-search">
+									<div class="mob-search__top">
+										<button type="button" class="jsCloseSearch">
+											<svg width="14" height="14">
+												<use xlink:href="#close"></use>
+											</svg>
+										</button>
+										<form>
+											<input type="text">
+											<button type="submit" class="Поиск&hellip;">
+												<svg width="20" height="20">
+													<use xlink:href="#search"></use>
+												</svg>
+											</button>
+										</form>
+									</div>
+									<div class="mob-search__bot">
+										<a href="#">
+											<svg width="16" height="16">
+												<use xlink:href="#search"></use>
+											</svg>
+											<span>Договор купли-продажи авто</span>
+										</a>
+										<a href="#">
+											<svg width="16" height="16">
+												<use xlink:href="#search"></use>
+											</svg>
+											<span>Договор купли-продажи авто</span>
+										</a>
+										<a href="#">
+											<svg width="16" height="16">
+												<use xlink:href="#search"></use>
+											</svg>
+											<span>Договор купли-продажи авто</span>
+										</a>
+									</div>
 								</div>
 								<button type="button" class="button mainMenu__mobPost">Написать пост</button>
 								<div class="mainMenu__mobNavOne">
