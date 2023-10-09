@@ -392,11 +392,11 @@ html body .checkbox__text a:hover{color:#ABD7A0}
 .articles__toper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:20px}
 .articles__title{width:calc(100% - 90px);padding-right:30px}
 .articles__navButtons .navButtonsItem{background:#fff}
-.articles__item{display:-webkit-box;display:-ms-flexbox;display:flex;gap:20px;border-radius:20px;background:#fff;padding:10px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;padding-bottom:20px}
+.articles__item{display:-webkit-box;display:-ms-flexbox;display:flex;gap:20px;border-radius:20px;background:#fff;padding:10px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;padding-bottom:20px;min-height:325px;}
 .articles__item:hover{background:#E2F8DC}
-.articles__item img{width:100%;aspect-ratio:2/1;border-radius:15px}
-.articles__item span{font-weight:600;line-height:1.4;width:100%;display:block;padding:0 10px}
-.articles__item time{font-weight:300;font-size:1.2rem;color:#878787}
+.articles__item img{width:100%;aspect-ratio:2/1;border-radius:15px;-o-object-fit:cover;object-fit:cover;}
+.articles__item span{font-weight:600;line-height:1.4;width:100%;display:block;padding:0 10px;height:90px;overflow:hidden;}
+.articles__item time{font-weight:300;font-size:1.2rem;color:#878787;padding:0 10px}
 .addPost{font-weight:500;border-radius:10px;background:#E2F8DC;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:50px;width:100%;border:none;padding:0}
 .addPost:hover{background:#abd7a0}
 .content__toper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
