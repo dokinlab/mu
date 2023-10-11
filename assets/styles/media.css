@@ -123,8 +123,8 @@ html body .checkbox__text{padding-left:10px;font-size:1.4rem}
 .const h1{font-size:2.5rem}
 .const h2{font-size:2rem}
 .const p{font-size:1.6rem}
-.const blockquote{padding:20px;gap:20px}
-.const blockquote span{font-size:20px}
+.const__quote{padding:20px;gap:20px}
+.const__quote span{font-size:20px}
 .newsPage{padding:20px;margin-top:20px}
 .newsPage .mainSlider{margin:0 -20px}
 .newsPage__left{gap:20px}
@@ -152,7 +152,7 @@ html body .checkbox__text{padding-left:10px;font-size:1.4rem}
 .content__toper>*{width:100%;padding:0}
 .const__descr{padding:0}
 .const__subjects{padding:20px;gap:20px}
-.const__quote{padding:20px}
+.const blockquote{padding:20px}
 .const__half{-ms-grid-columns:1fr;grid-template-columns:1fr}
 .const__docs{padding:20px;gap:20px}
 .const__docsItems{-ms-grid-columns:1fr 20px 1fr;grid-template-columns:1fr 1fr;gap:20px;row-gap:30px}
