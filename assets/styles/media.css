@@ -65,7 +65,7 @@ html body .checkbox__text{padding-left:10px;font-size:1.4rem}
 #body.mainMenuActived{overflow:hidden}
 .mainMenuActived .mainMenu{height:100%;overflow:hidden;overflow-y:auto}
 .mainMenu__row{display:none}
-.mainMenu__mob{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.mainMenu__mob{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding-top: 120px;}
 .footer{margin-top:40px;padding-bottom:80px}
 .footer__menu{display:-ms-grid;display:grid;-ms-grid-columns:1fr 20px 1fr;grid-template-columns:1fr 1fr;gap:20px;padding:20px}
 .footer__menuNav{max-width:none}

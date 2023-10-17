@@ -560,13 +560,131 @@
 							</div>
 						</div>
 					</div>
+					<div class="chooseMenu">
+						<div class="container">
+							<div class="chooseMenu__toper">
+								<a href="tel:+74955552222" class="chooseMenu__toper-link">+7 (495) 555-22-22</a>
+								<a href="#" class="button button_green chooseMenu__toper-button">Получить консультацию</a>
+							</div>
+							<div class="chooseMenu__body">
+								<div class="chooseMenu__left">
+									<div class="chooseMenu__topMenu">
+										<div class="chooseMenu__topMenu-item">
+											<div class="chooseMenu__topMenu-button">
+												<a href="#">Главная</a>
+												<button type="button" class="jsParentToggle"><svg><use xlink:href="#arrow"></use></svg></button>
+											</div>
+											<ul class="chooseMenu__topMenu-body">
+												<li><a href="#">Пункт меню</a></li>
+												<li><a href="#">Пункт меню</a></li>
+												<li><a href="#">Пункт меню</a></li>
+											</ul>
+										</div>
+										<div class="chooseMenu__topMenu-item">
+											<div class="chooseMenu__topMenu-button active">
+												<a href="#">Услуги</a>
+												<button type="button" class="jsParentToggle"><svg><use xlink:href="#arrow"></use></svg></button>
+											</div>
+											<ul class="chooseMenu__topMenu-body">
+												<li><a href="#">Банкротство</a></li>
+												<li><a href="#">Недвижимость</a></li>
+												<li><a href="#">Налоги</a></li>
+											</ul>
+										</div>
+										<div class="chooseMenu__topMenu-item">
+											<div class="chooseMenu__topMenu-button">
+												<a href="#">Франшиза</a>
+												<button type="button" class="jsParentToggle"><svg><use xlink:href="#arrow"></use></svg></button>
+											</div>
+											<ul class="chooseMenu__topMenu-body">
+												<li><a href="#">Пункт меню</a></li>
+												<li><a href="#">Пункт меню</a></li>
+												<li><a href="#">Пункт меню</a></li>
+											</ul>
+										</div>
+										<div class="chooseMenu__topMenu-item">
+											<div class="chooseMenu__topMenu-button">
+												<a href="#">Локация</a>
+												<button type="button" class="jsParentToggle"><svg><use xlink:href="#arrow"></use></svg></button>
+											</div>
+											<ul class="chooseMenu__topMenu-body">
+												<li><a href="#">Пункт меню</a></li>
+												<li><a href="#">Пункт меню</a></li>
+												<li><a href="#">Пункт меню</a></li>
+											</ul>
+										</div>
+										<div class="chooseMenu__topMenu-item">
+											<div class="chooseMenu__topMenu-button">
+												<a href="#">Отзывы</a>
+												<button type="button" class="jsParentToggle"><svg><use xlink:href="#arrow"></use></svg></button>
+											</div>
+											<ul class="chooseMenu__topMenu-body">
+												<li><a href="#">Пункт меню</a></li>
+												<li><a href="#">Пункт меню</a></li>
+												<li><a href="#">Пункт меню</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="chooseMenu__bottomMenu">
+										<a href="#">О компании</a>
+										<a href="#">Наши юристы</a>
+										<a href="#">Дополнительные ссылки</a>
+										<a href="#">Дополнительные ссылки</a>
+										<a href="#">Дополнительные ссылки</a>
+									</div>
+								</div>
+								<div class="chooseMenu__right">
+									<a href="#" class="chooseMenu__item" style="background:#E2F8DC">
+										<span class="chooseMenu__item-pic" style="background:#ABD7A0">
+											<img src="assets/medias/person-white.svg" alt="">
+										</span>
+										<span class="chooseMenu__item-body">
+											<b>Информационный портал</b>
+											Здесь вы можете почитать полезные статьи
+										</span>
+										<span class="chooseMenu__item-arrow" style="background:#ABD7A0"><svg><use xlink:href="#arrow"></use></svg></span>
+									</a>
+									<a href="#" class="chooseMenu__item" style="background:#F2F5F9">
+										<span class="chooseMenu__item-pic" style="background:#839BC8">
+											<img src="assets/medias/person-white.svg" alt="">
+										</span>
+										<span class="chooseMenu__item-body">
+											<b>Сервис</b>
+											Юрист к кармане, онлайн 24/7
+										</span>
+										<span class="chooseMenu__item-arrow" style="color:#fff;background:#839BC8"><svg><use xlink:href="#arrow"></use></svg></span>
+									</a>
+									<a href="#" class="chooseMenu__item" style="color:#fff;background:#000">
+										<span class="chooseMenu__item-pic" style="background:#ABD7A0">
+											<img src="assets/medias/person-white.svg" alt="">
+										</span>
+										<span class="chooseMenu__item-body">
+											<b>Офисы</b>
+											Здесь вы можете оставить заявку на обслуживание юриста
+										</span>
+										<span class="chooseMenu__item-arrow" style="background:#ABD7A0"><svg><use xlink:href="#arrow"></use></svg></span>
+									</a>
+									<a href="#" class="chooseMenu__item" style="color:#fff;background:#B9AB91">
+										<span class="chooseMenu__item-pic" style="background:#F4F4F4">
+											<img src="assets/medias/person-white.svg" alt="">
+										</span>
+										<span class="chooseMenu__item-body">
+											<b>Школа</b>
+											Юрист к кармане, онлайн 24/7
+										</span>
+										<span class="chooseMenu__item-arrow" style="background:#F4F4F4"><svg><use xlink:href="#arrow"></use></svg></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="header__toggle">
-						<button type="button" class="jsOpenMainMenu">
+						<button type="button" class="jsOpenChooseMenu">
 							<svg width="20" height="12">
 								<use xlink:href="#burger"></use>
 							</svg>
 						</button>
-						<button type="button" class="jsCloseMainMenu">
+						<button type="button" class="jsCloseChooseMenu">
 							<svg width="14" height="14">
 								<use xlink:href="#close"></use>
 							</svg>
@@ -574,10 +692,10 @@
 					</div>
 					<a href="/" class="logo header__logo">Мой юрист</a>
 					<nav class="header__menu">
-						<a href="#">Новости</a>
-						<a href="#">Статьи</a>
-						<a href="#">Кейсы</a>
-						<a href="#">Полезные <span>инструменты</span></a>
+						<button type="button" class="jsToggleMainMenu">Новости</button>
+						<button type="button" class="jsToggleMainMenu">Статьи</button>
+						<button type="button" class="jsToggleMainMenu">Кейсы</button>
+						<button type="button" class="jsToggleMainMenu">Полезные <span>инструменты</span></button>
 					</nav>
 					<button type="button" class="header__person">
 						<svg width="20" height="20">

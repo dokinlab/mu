@@ -4,6 +4,10 @@ jQuery('.jsToggle').on('click',function(){
   jQuery(this).toggleClass('active');
 });
 
+jQuery('.jsParentToggle').on('click',function(){
+  jQuery(this).parent().toggleClass('active');
+});
+
 jQuery(document).keyup(function(e) {
     if (e.key === "Escape") {
         jQuery('.jsToggle').removeClass('active');
@@ -12,12 +16,27 @@ jQuery(document).keyup(function(e) {
     }
 });
 
+jQuery('.jsToggleMainMenu').on('click',function(){
+  jQuery('body').removeClass('chooseMenuActived');
+  jQuery('body').toggleClass('mainMenuActived');
+});
+
 jQuery('.jsOpenMainMenu').on('click',function(){
+  jQuery('body').removeClass('chooseMenuActived');
   jQuery('body').addClass('mainMenuActived');
 });
 
 jQuery('.jsCloseMainMenu').on('click',function(){
   jQuery('body').removeClass('mainMenuActived');
+});
+
+jQuery('.jsOpenChooseMenu').on('click',function(){
+  jQuery('body').removeClass('mainMenuActived');
+  jQuery('body').addClass('chooseMenuActived');
+});
+
+jQuery('.jsCloseChooseMenu').on('click',function(){
+  jQuery('body').removeClass('chooseMenuActived');
 });
 
 jQuery('.jsOpenSearch').on('click',function(){
