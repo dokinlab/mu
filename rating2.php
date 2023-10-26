@@ -23,9 +23,9 @@
 							<div class="ratingPage__toperBody">
 								<div class="ratingPage__toperName">Виктория Викторовна</div>
 								<div class="ratingPage__toperText">Ведущий юрист, эксперт по праву<br>
-Стаж 9 лет.<br>
-Мои достижения и контакты <br>
-<a href="#">https://tap.link/dfsfdfs</a></div>
+								Стаж 9 лет.<br>
+								Мои достижения и контакты <br>
+								<a href="#">https://tap.link/dfsfdfs</a></div>
 								<div class="ratingPage__toperText">Свободный текст<br>описание</div>
 							</div>
 						</div>

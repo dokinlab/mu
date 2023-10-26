@@ -160,6 +160,47 @@
 									<br>Стаж 9 лет.
 								</div>
 							</div>
+							<h2>Таблица</h2>
+							<div class="table">
+								<table>
+									<tr>
+										<th colspan="3">Заголовок таблицы</th>
+									</tr>
+									<tr>
+										<td>Номер</td>
+										<td>Статья</td>
+										<td>Дата</td>
+									</tr>
+									<tr>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+									</tr>
+									<tr>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+									</tr>
+									<tr>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+									</tr>
+								</table>
+							</div>
+							<h2>Теги</h2>
+							<div class="const__tags">
+								<span>Пример тега</span>
+								<span>Пример тега</span>
+								<span>Пример тега</span>
+								<span>Пример тега</span>
+								<span>Пример тега</span>
+								<span>Пример тега</span>
+								<span>Пример тега</span>
+								<span>Пример тега</span>
+								<span>Пример тега</span>
+								<span>Пример тега</span>
+							</div>
 							<img src="assets/medias/stock/3.jpg" alt="">
 							<div class="const__descr">Подпись к фото. Кассация разобралась в деле об оценке рыночной стоимости предмета лизинга, Кассация разобралась в деле об оценке рыночной стоимости предмета лизинга.</div>
 							<div class="const__subjects">

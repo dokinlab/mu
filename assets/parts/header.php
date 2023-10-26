@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<base href="https://moiurist.online/a/">
+<base href="http://134.0.113.66/a/">
 <meta charset="utf-8">
 <title>moiurist.online</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -625,12 +625,41 @@
 											</ul>
 										</div>
 									</div>
-									<div class="chooseMenu__bottomMenu">
-										<a href="#">О компании</a>
-										<a href="#">Наши юристы</a>
-										<a href="#">Дополнительные ссылки</a>
-										<a href="#">Дополнительные ссылки</a>
-										<a href="#">Дополнительные ссылки</a>
+									<div class="chooseMenu__topMenu-wrapper">
+										<div class="title">Рубрики</div>
+										<div class="content__catsBody">
+											<a href="#" class="content__catsItem">
+												<b><svg width="16" height="15">
+													<use xlink:href="#star"></use>
+												</svg></b>
+												<span>Разборы законов</span>
+											</a>
+											<a href="#" class="content__catsItem">
+												<b><svg width="16" height="15">
+													<use xlink:href="#star"></use>
+												</svg></b>
+												<span>Законы</span>
+											</a>
+											<a href="#" class="content__catsItem">
+												<b><svg width="16" height="15">
+													<use xlink:href="#star"></use>
+												</svg></b>
+												<span>Юристы</span>
+											</a>
+											<a href="#" class="content__catsItem">
+												<b><svg width="16" height="15">
+													<use xlink:href="#star"></use>
+												</svg></b>
+												<span>Разборы законов</span>
+											</a>
+										</div>
+										<div class="chooseMenu__bottomMenu">
+											<a href="#">О компании</a>
+											<a href="#">Наши юристы</a>
+											<a href="#">Дополнительные ссылки</a>
+											<a href="#">Дополнительные ссылки</a>
+											<a href="#">Дополнительные ссылки</a>
+										</div>
 									</div>
 								</div>
 								<div class="chooseMenu__right">
