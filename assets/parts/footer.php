@@ -82,7 +82,7 @@
 	</div>
 </footer>
 <section class="bottom">
-	<button type="button" class="bottom__item">
+	<button type="button" class="bottom__item jsOpenChooseMenu">
 		<svg width="20" height="12">
 			<use xlink:href="#burger"></use>
 		</svg>

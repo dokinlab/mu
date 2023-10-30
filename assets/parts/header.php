@@ -560,6 +560,7 @@
 							</div>
 						</div>
 					</div>
+					<div class="chooseMenu-overlay jsCloseChooseMenu"></div>
 					<div class="chooseMenu">
 						<div class="container">
 							<div class="chooseMenu__toper">
