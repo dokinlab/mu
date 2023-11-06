@@ -167,4 +167,11 @@ let docsSwiper = new Swiper('#jsDocsSwiper',{
   }
 });
 
+if (jQuery('.const').is('.const')){
+  jQuery(document).topProgressBar({
+    bgColor: "#0AC964",
+    height: "4px"
+  });
+}
+
 console.log('script.js loaded');

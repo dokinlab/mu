@@ -5176,3 +5176,9 @@ html body .checkbox__text a:hover {
 .top__search-all svg {
     width: 10px
 }
+
+.read-progress {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}

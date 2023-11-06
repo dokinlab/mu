@@ -113,6 +113,7 @@
 <script src="assets/scripts/jquery.maskedinput.js"></script>
 <script src="assets/scripts/select2.js"></script>
 <script src="assets/scripts/swiper.js"></script>
+<script src="assets/scripts/top-progress-bar.js"></script>
 <script src="assets/scripts/script.js"></script>
 </body>
 </html>
