@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<base href="http://134.0.113.66/a/">
+<base href="https://134.0.113.66/a/">
 <meta charset="utf-8">
 <title>moiurist.online</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
