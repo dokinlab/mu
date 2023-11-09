@@ -1,4 +1,4 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'].'/a/assets/parts/header.php'); ?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'].'/dev/a/assets/parts/header.php'); ?>
 <section class="content">
 	<div class="container">
 		<div class="content__row">
@@ -424,4 +424,4 @@
 		</div>
 	</div>
 </section>
-<?php include_once($_SERVER['DOCUMENT_ROOT'].'/a/assets/parts/footer.php'); ?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'].'/dev/a/assets/parts/footer.php'); ?>

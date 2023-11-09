@@ -1,4 +1,4 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'].'/a/assets/parts/header.php'); ?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'].'/dev/a/assets/parts/header.php'); ?>
 <main class="content">
 	<div class="container">
 		<h2 style="line-height:1.4;font-family:Georgia;font-style:italic">Вёрстка страниц:</h2>
@@ -22,4 +22,4 @@
 		</ol>
 	</div>
 </main>
-<?php include_once($_SERVER['DOCUMENT_ROOT'].'/a/assets/parts/footer.php'); ?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'].'/dev/a/assets/parts/footer.php'); ?>

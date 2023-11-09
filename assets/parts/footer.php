@@ -106,8 +106,8 @@
 		Кейсы
 	</a>
 </section>
-<?php include_once($_SERVER['DOCUMENT_ROOT'].'/a/assets/parts/modals.php'); ?>
-<?php include_once($_SERVER['DOCUMENT_ROOT'].'/a/assets/parts/sprite.php'); ?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'].'/dev/a/assets/parts/modals.php'); ?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'].'/dev/a/assets/parts/sprite.php'); ?>
 <script src="assets/scripts/jquery.js"></script>
 <script src="assets/scripts/jquery.fancybox.js"></script>
 <script src="assets/scripts/jquery.maskedinput.js"></script>

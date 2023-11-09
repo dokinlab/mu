@@ -82,6 +82,7 @@ html body .checkbox__text{padding-left:10px;font-size:1.4rem}
 .footer__infoNav{-ms-flex-wrap:nowrap;flex-wrap:nowrap;white-space:nowrap;overflow:hidden;overflow-x:auto;padding-bottom:15px}
 .footer__service{width:calc(100% - 40px);right:20px}
 .footer__copy{padding:0 20px;padding-bottom:65px;height:auto;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.content .container{padding:0 20px}
 .content__row{gap:20px}
 .content__cats{overflow:hidden;overflow-x:auto;padding-bottom:10px}
 .content__catsBody{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;white-space:nowrap;gap:30px}
