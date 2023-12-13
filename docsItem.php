@@ -99,7 +99,7 @@
 			</aside>
 			<main class="content__main">
 				<div class="content__toper">
-					<ul itemscope="" itemtype="http://schema.org/BreadcrumbList" class="content_breadcrumbs"><li itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a rel="nofollow" title="" itemprop="item" href="/"><span itemprop="name">Главная</span><meta itemprop="position" content="1"></a></li><li itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><span itemprop="name">Вторая страница</span><meta itemprop="position" content="3"></li></ul>
+					<ul itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs"><li itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a rel="nofollow" title="" itemprop="item" href="/"><span itemprop="name">Главная</span><meta itemprop="position" content="1"></a></li><li itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><span itemprop="name">Вторая страница</span><meta itemprop="position" content="3"></li></ul>
 					<div class="content__create">
 						<svg width="15" height="15">
 							<use xlink:href="#circleV"></use>
